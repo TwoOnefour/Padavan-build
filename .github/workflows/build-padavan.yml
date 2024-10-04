@@ -44,7 +44,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: ZTE_E8820S
+        TNAME: ZTE-E8820S
         KERNEL: 4.4
       run: |
         cd /opt/rt-n56u/trunk
